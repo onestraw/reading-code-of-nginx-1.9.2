@@ -1,3 +1,4 @@
+//日志新功能(所有打印会显示出调用关系，以及调用函数名和行号）.c*
 /*
 2015/12/31 06:36:01[           ngx_epoll_process_events,  1713]  [debug] 21360#21360: epoll: fd:9 EPOLLIN  (ev:0001) d:B24FD078
 2015/12/31 06:36:01[                ngx_channel_handler,  1472]  [debug] 21360#21360: channel handler
