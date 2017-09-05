@@ -1,7 +1,13 @@
+# About This Branch
+
+- For those Unixer/Vimer with ctags/cscope
+- Add one script `convert_encode.py` of convert encoding to utf-8
+- Clean & rearrange the source tree
+
+
 # reading-code-of-nginx-1.9.2  
 nginx-1.9.2代码理解及详细注释  
  
-   
    
 说明:  
 ===================================   

@@ -1,2 +1,4 @@
 nginx-1.9.2/objs/
 *.o
+cscope.out
+tags
