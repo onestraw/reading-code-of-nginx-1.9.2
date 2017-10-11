@@ -74,7 +74,7 @@ ngx_init_setproctitle(ngx_log_t *log)
     return NGX_OK;
 }
 
-//Linux修改进程名称(setproctitle()) .
+//Linux淇敼杩涚▼鍚嶇О(setproctitle()) .
 void
 ngx_setproctitle(char *title)
 {
@@ -89,6 +89,9 @@ ngx_setproctitle(char *title)
 
     ngx_os_argv[1] = NULL;
 
+    /*
+     * set process title by changing argv[0]
+     */
     p = ngx_cpystrn((u_char *) ngx_os_argv[0], (u_char *) "nginx: ",
                     ngx_os_argv_last - ngx_os_argv[0]);
 

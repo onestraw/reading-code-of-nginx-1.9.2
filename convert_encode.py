@@ -50,6 +50,6 @@ def convert_all_files(filelist):
             os.remove(tempfile(f))
 
 
-filelist = get_all_files('./notes')
-filelist = get_all_files('./nginx-1.9.2')
+#filelist = get_all_files('./notes')
+filelist = get_all_files('./nginx-1.9.2/src/core')
 convert_all_files(filelist)
